@@ -65,15 +65,22 @@ const singleHtml = `<!doctype html>
 
     <!-- Open Graph / Facebook / WhatsApp -->
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://solusilokal.github.io/GolfVerse/" />
+    <meta property="og:site_name" content="GolfVerse" />
     <meta property="og:title" content="GolfVerse - Pengalaman Golf Premium di Ujung Jari Anda" />
     <meta property="og:description" content="Nikmati padang golf 18-hole berstandar internasional dengan pemandangan alam memukau di GolfVerse. Reservasi Tee Time mudah via WhatsApp." />
-    <meta property="og:image" content="./hero-bg.jpg" />
+    <meta property="og:image" content="./og-image.png" />
+    <meta property="og:image:secure_url" content="./og-image.png" />
+    <meta property="og:image:type" content="image/png" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://solusilokal.github.io/GolfVerse/" />
     <meta name="twitter:title" content="GolfVerse - Pengalaman Golf Premium di Ujung Jari Anda" />
     <meta name="twitter:description" content="Nikmati padang golf 18-hole berstandar internasional dengan pemandangan alam memukau di GolfVerse." />
-    <meta name="twitter:image" content="./hero-bg.jpg" />
+    <meta name="twitter:image" content="./og-image.png" />
+
+    <link rel="image_src" href="./og-image.png" />
 
     <!-- Favicon with inline base64 for instant file:// preview support -->
     <link rel="icon" type="image/png" href="${faviconDataUri}" />
